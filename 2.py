@@ -10,8 +10,8 @@ import random
 
 load_dotenv()
 
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
-YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+client = Groq(api_key=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)
+YOUTUBE_API_KEY = AIzaSyBKBX2BIFv84gcXW0blwht21edprKMpljw
 youtube = build('youtube', 'v3', developerKey=YOUTUBE_API_KEY)
 
 # Checklist Functions
